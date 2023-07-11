@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header{
+    background-image: url(../img/picture.png);
+    /* height:100%; */
+    width:100%;
+}
+.rudra1:hover{
+    color:yellow;
+}
+.rudra::after{
+    position: absolute;
+    content:"";
+    width:0;
+    height:1px;
+    bottom:0;
+    left:0;
+    background-color: yellow;
+    transition:0.5s
+}
+.rudra:hover::after{
+    width:100%;
+}
+.Creative p{
+    font-family: 'Montserrat', sans-serif;
+}
+/* .img1{
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+.Team{
+  Position:Relative;
+  width:100%;
+}
+.Team:hover{
+  box-shadow: 7px 7px #95e1d3;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    height: 100%;
+    max-width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+background-image: linear-gradient(0deg, #e2cc7b 0%, #db7474 100%);    object-fit: cover;
+}
+
+.Team:hover .overlay {
+    opacity: 0.8;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.third{
+    background-image: url(../img/image_2023_06_19T09_01_38_699Z.png);
+}
+.third .piyush2{
+    position:absolute;
+    left:60%;
+    top:37%;
+}
+.Btn{
+    border:none;
+    color:white;
+    background-color: #95e1d3;
+    padding:5px 25px;
+}
+.carousel-inner{
+    max-width:800px;
+    margin:0 auto;
+}
+.Team1{
+  Position:Relative;
+  width:100%;
+}
+.Team1:hover{
+  box-shadow: 7px 7px #95e1d3;
+}
+.overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    height: 100%;
+    max-width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-image: linear-gradient(0deg, #e2cc7b 0%, #db7474 100%);    object-fit: cover;
+}
+
+.Team1:hover .overlay1 {
+    opacity: 0.8;
+}
+.RUDRA i:hover{
+    background-color: #db7474;
+}
+.text1{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: yellow;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.dipesh{
+    padding:5px;
+    color:#db7474
+}
+.dipesh:hover{
+    color:white;
+    background-color: #db7474;
+}
+.Team2{
+  Position:Relative;
+  width:100%;
+}
+.overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    height: 100%;
+    max-width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+background-image: linear-gradient(0deg, #e2cc7b 0%, #db7474 100%);
+}
+
+.Team2:hover .overlay2 {
+    opacity: 0.8;
+}
+
+.text2{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.Images .container-fluid{
+  padding:0;
+  margin:0;
+  width:100%;
+}
+.img-fluid1{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+.open{
+background-image:url(../img/Untitled-18.jpg);
+}
+.blog .image1{
+    top:30%;
+    left:0;
+}
+
+/* ---------responsive------- */
+@media (max-width:360px){
+   .Second .Project {
+      border-bottom: 1px solid white;
+   }
+   .service .amazing1 {
+    flex-wrap:wrap;
+    padding:0;
+    margin:10px 0;
+    justify-content: center;
+    /* text-align:center; */
+   }
+   .amazing{
+    text-align: center;
+    margin:20px 30px;
+   }
+   hr{
+    display: none;
+   }
+   .third .piyush2{
+    position: absolute;
+    bottom:-110px;
+    left:20%;
+   }
+   .fourth{
+    margin-top:130px;
+   }
+   .carousel-inner{
+     text-align: center;
+   }
+   .five .icon p{
+    margin-top:80px;
+   }
+   .seven .icon p{
+    margin-top:60px;
+   }
+   .eight .rudra2{
+      flex-wrap:wrap;
+      justify-content: center;
+      text-align: center;
+   }
+   .eight .rudra3{
+      flex-wrap:wrap;
+      justify-content: center;
+      text-align: center;
+      margin-top:30px;
+   }
+   .blog{
+    text-align: center;
+    justify-content: center;
+   }
+   .blog .view{
+    justify-content: center;
+    align-items: center;
+   }
+   footer .ut{
+    padding-top:30px;
+    text-align: center;
+    margin:15px 0;
+    justify-content: center;
+   }
+   .social{
+     margin:15px 0;
+   }
+   .footer{
+    margin-top:50px;
+   }
+   footer .rudra,.rudra2, .rudra4{
+     justify-content: center;
+     text-align: center;
+   }
+}
